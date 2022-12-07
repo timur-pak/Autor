@@ -10,7 +10,7 @@ public class TestAuthor{
         //Проверка сеттеров и геттеров
         Ivanov.setEmail("ivan@nikuda");
         System.out.println(Ivanov);// проверка toString()
-        System.out.println("имя:" + Ivanov.getName());
-        System.out.println("email:" + Ivanov.getEmail());
+        System.out.println("имя: " + Ivanov.getName());
+        System.out.println("email: " + Ivanov.getEmail());
     }
 }

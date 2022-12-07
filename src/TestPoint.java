@@ -1,6 +1,8 @@
 //Тестирующая программа для класса Point
 import util.*;
 
+import java.util.Arrays;
+
 public class TestPoint {
     public static void main(String[] args) {
         Point p1=new Point(1, 2);
@@ -30,6 +32,7 @@ public class TestPoint {
         System.out.printf("Расстояние: %.2f%n", p2.distance(p1));
         System.out.printf("Расстояние: %.2f%n", p1.distance());
 
+        System.out.println("-------------------");
 
     }
 }

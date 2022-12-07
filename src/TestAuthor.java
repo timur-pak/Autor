@@ -12,5 +12,6 @@ public class TestAuthor{
         System.out.println(Ivanov);// проверка toString()
         System.out.println("имя: " + Ivanov.getName());
         System.out.println("email: " + Ivanov.getEmail());
+        System.out.println();
     }
 }
